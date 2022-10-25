@@ -1,0 +1,10 @@
+<p>vista-principal en modulo aplicacion</p>
+
+<app-agregar (CrearPerson)="recibirEvento($event)" ></app-agregar>
+
+<ul>
+
+<li *ngFor="let heroeTabla of heroes; let a = index">{{a + 1}} - {{heroeTabla}}</li>
+
+
+</ul>
